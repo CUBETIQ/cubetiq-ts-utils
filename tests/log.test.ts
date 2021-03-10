@@ -1,6 +1,6 @@
 import Log from '../src/log/Log';
 
-describe('loggin into console', function () {
+describe('logging into console', function () {
     it('info', function () {
         Log.info('I am an info!');
     });

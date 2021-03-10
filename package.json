@@ -1,5 +1,5 @@
 {
-    "name": "cubetiq-ts-utils",
+    "name": "@cubetiq/tsutil",
     "version": "1.0.0",
     "description": "CUBETIQ TypeScript Utils",
     "main": "index.ts",

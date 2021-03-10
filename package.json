@@ -1,0 +1,10 @@
+{
+  "name": "cubetiq-ts-utils",
+  "version": "1.0.0",
+  "description": "CUBETIQ TypeScript Utils",
+  "main": "index.ts",
+  "repository": "https://github.com/CUBETIQ/cubetiq-ts-utils.git",
+  "author": "Sambo Chea",
+  "license": "MIT",
+  "private": false
+}

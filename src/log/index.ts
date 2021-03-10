@@ -1,16 +1,16 @@
-import { Loggable } from "./interfaces";
+import { Loggable } from './interfaces';
 
-class Log {
+class Index {
     static log(loggable: Loggable): void {
         switch (loggable.type) {
             case 'error':
-                this.error(loggable.from, loggable.data)
+                this.error(loggable.from, loggable.data);
                 break;
             case 'warn':
-                this.warn(loggable.from, loggable.data)
+                this.warn(loggable.from, loggable.data);
                 break;
             default:
-                this.info(loggable.from, loggable.data)
+                this.info(loggable.from, loggable.data);
                 break;
         }
     }
@@ -20,12 +20,12 @@ class Log {
     }
 
     static error(...data: any[]): void {
-        console.error(data)
+        console.error(data);
     }
 
     static warn(...data: any[]): void {
-        console.warn(data)
+        console.warn(data);
     }
 }
 
-export default Log;
+export default Index;

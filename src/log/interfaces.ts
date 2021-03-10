@@ -1,4 +1,4 @@
-type LogType = 'info' | 'error' | 'warn'
+export type LogType = 'info' | 'error' | 'warn';
 
 export interface Loggable {
     type: LogType;

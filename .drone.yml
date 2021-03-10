@@ -9,6 +9,6 @@ steps:
     DOCKER_REGISTRY:
       from_secret: docker_registry
   commands:
-  - echo ${DOCKER_REGISTRY}
+  - echo "Registry => ${DOCKER_REGISTRY}"
   - yarn
   - yarn build

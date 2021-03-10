@@ -11,4 +11,5 @@ steps:
   commands:
   - echo $DOCKER_REGISTRY
   - yarn
-  - yarn build
+  - yarn 
+  - yarn test

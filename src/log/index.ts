@@ -1,6 +1,6 @@
 import { Loggable } from './interfaces';
 
-class Index {
+class Log {
     static log(loggable: Loggable): void {
         switch (loggable.type) {
             case 'error':
@@ -28,4 +28,4 @@ class Index {
     }
 }
 
-export default Index;
+export default Log;
